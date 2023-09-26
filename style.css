@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: palegoldenrod;
+    display: grid;
+
+    /* align-items: start;
+    justify-items: center; */
+
+    place-items: start center;
+}
+
+.item {
+    background: lightskyblue;
+    width: 10vw;
+    height: 10vh;
+    display:grid;
+    place-items: center;
+}
